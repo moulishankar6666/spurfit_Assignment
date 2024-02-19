@@ -49,6 +49,9 @@
   cursor: pointer;
 }
 @media screen and (max-width: 767px) {
+  .app-header {
+    justify-content: space-between;
+  }
   .app-nav-links {
     display: none;
   }
