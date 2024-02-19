@@ -485,9 +485,9 @@
   .Rate-your-social-skills-time-line {
     width: 100%;
   }
-  .Rate-your-social-skills-time-line-desktop {
-    display: none;
-  }
+}
+
+@media screen and (max-width: 400px) {
   .Rate-your-social-skills-time-line-mobile {
     width: 100%;
     background-color: #fff;
@@ -496,6 +496,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .Rate-your-social-skills-time-line-desktop {
+    display: none;
   }
 }
 
