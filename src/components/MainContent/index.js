@@ -18,7 +18,7 @@ import { Chrono } from "react-chrono";
 // imported Hooks and gsap for creating Animation
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 //                                                    ARRAYS FOR DIFFERENT SECTIONS
