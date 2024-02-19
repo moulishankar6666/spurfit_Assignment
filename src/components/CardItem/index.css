@@ -1,0 +1,31 @@
+.card-container {
+  width: 350px;
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  border-radius: 15px;
+  transition: all 1s ease;
+  scroll-snap-align: center;
+  z-index: 10;
+}
+@media screen and (max-width: 767px) {
+  .card-container {
+    width: 300px;
+  }
+}
+.card-container:hover {
+  transform: rotate(-10deg);
+}
+.card-container > h1 {
+  text-align: center;
+  font-size: 22px;
+}
+.card-container > p {
+  text-align: center;
+}
