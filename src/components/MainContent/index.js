@@ -393,9 +393,18 @@ const MainContent = () => {
             </p>
           </div>
         </div>
-        <div className="Rate-your-social-skills-time-line">
+        <div className="Rate-your-social-skills-time-line-desktop">
           <Chrono
             mode="HORIZONTAL"
+            items={details}
+            cardHeight="100px"
+            slideShow="true"
+            cardLess="true"
+          />
+        </div>
+        <div className="Rate-your-social-skills-time-line-mobile">
+          <Chrono
+            mode="VERTICAL_ALTERNATING"
             items={details}
             cardHeight="100px"
             slideShow="true"

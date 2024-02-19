@@ -157,6 +157,36 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .apple-mobile-image-container {
+    width: 250px;
+    height: 250px;
+    order: 0;
+  }
+  .apple-mobile-img {
+    width: 170px;
+    height: 170px;
+  }
+  .yellow-ghost {
+    height: 40px;
+    width: 30px;
+    top: 26px;
+    left: 11px;
+  }
+  .blue-ghost {
+    height: 40px;
+    width: 30px;
+    top: 86px;
+    right: -16px;
+  }
+  .red-ghost {
+    height: 40px;
+    width: 30px;
+    bottom: -20px;
+    left: 77px;
+  }
+}
+
 /* Desktop view of section-2,6*/
 
 .EQ-beats-IQ-container-section-2,
@@ -209,7 +239,7 @@
 .Does-this-sound-familiar-heading-container-section-3 > h1,
 .Self-improvement > h1 {
   font-size: 30px;
-  width: 375px;
+  width: 300px;
 }
 .red-ghost-img {
   height: 55px;
@@ -340,8 +370,14 @@
 
 @media screen and (max-width: 767px) {
   .yellow-ghost-img {
-    width: 30px;
-    height: 43px;
+    width: 50px;
+    height: 63px;
+  }
+  .Meet-The-Ahead-app-container-left > p {
+    font-size: 15px;
+  }
+  .Meet-The-Ahead-app-container-left > h1 {
+    font-size: 15px;
   }
 }
 
@@ -428,7 +464,7 @@
   text-align: center;
   font-weight: 500;
 }
-.Rate-your-social-skills-time-line {
+.Rate-your-social-skills-time-line-desktop {
   width: 75%;
   background-color: #fff;
   padding: 20px;
@@ -437,7 +473,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.Rate-your-social-skills-time-line-mobile {
+  display: none;
+}
 /*                                                mobile-view of section-7 */
 
 @media screen and (max-width: 767px) {
@@ -446,6 +484,18 @@
   }
   .Rate-your-social-skills-time-line {
     width: 100%;
+  }
+  .Rate-your-social-skills-time-line-desktop {
+    display: none;
+  }
+  .Rate-your-social-skills-time-line-mobile {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -541,6 +591,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  overflow: hidden;
 }
 
 .about-section .heading,

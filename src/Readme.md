@@ -1,14 +1,15 @@
 # Title
 
-    Write the title of the Assignment
+    spur.fit Frountend UI intern Task
 
 ## Objective
 
-    Define the main goal or purpose of the Assignment
+    Duolingo for emotional intelligence
+    Your pocket couch , built by behaviour change experts to transform your life
 
 ## Tech Stack
 
-    List the primary technologies, languages required for the Assignment
+    React.js,java_script,tailwind ,css used in this assignment
 
 ## Completion Instructions
 
@@ -16,42 +17,27 @@
 
 #### Must Have
 
-    List the critical features or tasks mentioned in the Assignment
-
-#### Nice to Have
-
-    List the bonus features or tasks mentioned in the Assignment, if any
+    Develop ahead application with annimations
 
 ### Guidelines to develop a project
 
 #### Must Have
 
-    List the necessary guidelines to follow while developing the project, mentioned in the Assignment, if any
-
-#### Nice to Have
-
-    List the additional/suggested guidelines to follow while developing the project, mentioned in the Assignment, if any
+    Develop ahead application with annimations by using gasp module
 
 ### Submission Instructions
 
 #### Must Have
 
-    List the Instructions to follow while submitting the project mentioned in the Assignment, if any
-
-#### Nice to Have
-
-    List the suggested instructions to follow while submitting the project mentioned in the Assignment, if any
+    submit the github repositiry link and host link
 
 ## Resources
 
 ### Design files
 
-    List the references of design files required for the Assignment
-
-### APIs
-
-    List the APIs, providing any relevant endpoints, documentation links, or access keys, required for the Assignment if any
+    templetes provided inthe assignment document
+    desigin file link :https://dribbble.com/shots/19807069-Ahead-app-redesign-concept
 
 ### Third-party packages
 
-    List the Third-party packages required for the Assignment, if any
+    react-js popup for mobile menu, chrono for timelines, gsap for animations
