@@ -369,15 +369,21 @@
 /*                                                mobile-view of section-4 */
 
 @media screen and (max-width: 767px) {
+  .Meet-The-Ahead-app-container-section-4 {
+    flex-direction: column;
+  }
   .yellow-ghost-img {
-    width: 50px;
-    height: 63px;
+    width: 75px;
+    height: 90px;
   }
   .Meet-The-Ahead-app-container-left > p {
     font-size: 15px;
   }
   .Meet-The-Ahead-app-container-left > h1 {
     font-size: 15px;
+  }
+  .Meet-The-Ahead-app-container-right {
+    width: 100%;
   }
 }
 
@@ -487,10 +493,11 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 767px) {
   .Rate-your-social-skills-time-line-mobile {
-    width: 100%;
+    width: 300px;
     background-color: #fff;
+    color: #000;
     padding: 20px;
     border-radius: 10px;
     display: flex;

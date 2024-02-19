@@ -81,6 +81,21 @@ const details = [
   },
 ];
 
+const detailsMobile = [
+  {
+    cardTitle: "You",
+  },
+  {
+    cardTitle: "Anonymonous 1",
+  },
+  {
+    cardTitle: "Anonymonous 2",
+  },
+  {
+    cardTitle: "Anonymonous 3",
+  },
+];
+
 // items array for section-5
 const items = [
   {
@@ -405,10 +420,9 @@ const MainContent = () => {
         <div className="Rate-your-social-skills-time-line-mobile">
           <Chrono
             mode="VERTICAL_ALTERNATING"
-            items={details}
+            items={detailsMobile}
             cardHeight="100px"
             slideShow="true"
-            cardLess="true"
           />
         </div>
       </section>
