@@ -718,7 +718,7 @@
   flex-grow: 1;
 }
 .job-details-card-list-container .job-details-card:hover {
-  height: 165px;
+  height: 170px;
   transition: height 0.5s ease-in-out;
 }
 .job-details-card > p {
@@ -745,7 +745,7 @@
   padding: 8px;
   align-items: center;
   font-weight: 600;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
