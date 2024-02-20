@@ -700,12 +700,9 @@
 }
 .job-details-card-list-container {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
 }
 
 .job-details-card-list-container .job-details-card {
@@ -718,10 +715,11 @@
   width: 300px;
   height: 122px;
   overflow: hidden;
+  flex-grow: 1;
 }
 .job-details-card-list-container .job-details-card:hover {
   height: 165px;
-  transition: height 0.5s linear;
+  transition: height 0.5s ease-in-out;
 }
 .job-details-card > p {
   font-size: 18px;
@@ -747,10 +745,12 @@
   padding: 8px;
   align-items: center;
   font-weight: 600;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 767px) {
   .job-details-card-list-container {
     justify-content: flex-start;
+    width: 100%;
   }
 }
