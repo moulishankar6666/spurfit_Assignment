@@ -708,12 +708,6 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 767px) {
-  .job-details-card-list-container {
-    justify-content: flex-start;
-  }
-}
-
 .job-details-card-list-container .job-details-card {
   background-color: #eef1bf83;
   padding: 10px;
@@ -722,6 +716,12 @@
   flex-direction: column;
   gap: 10px;
   width: 300px;
+  height: 122px;
+  overflow: hidden;
+}
+.job-details-card-list-container .job-details-card:hover {
+  height: 165px;
+  transition: height 0.5s linear;
 }
 .job-details-card > p {
   font-size: 18px;
@@ -736,4 +736,21 @@
 .job-details-card > ul > li {
   font-weight: 500;
   font-size: 15px;
+}
+.job-details-card > button {
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  width: 100px;
+  padding: 8px;
+  align-items: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .job-details-card-list-container {
+    justify-content: flex-start;
+  }
 }

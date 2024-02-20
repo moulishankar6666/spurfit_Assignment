@@ -497,6 +497,7 @@ const MainContent = () => {
               <li>Berlin or Remote</li>
               <li>&euro;65-85k,0.5-1.50% share options</li>
             </ul>
+            <button>See Details</button>
           </div>
           <div className="job-details-card">
             <p>Senior Designer</p>
@@ -505,6 +506,7 @@ const MainContent = () => {
               <li>Berlin or Remote</li>
               <li>&euro;65-85k,0.5-1.50% share options</li>
             </ul>
+            <button>See Details</button>
           </div>
           <div className="job-details-card">
             <p>Superstar Intern</p>
@@ -513,6 +515,7 @@ const MainContent = () => {
               <li>Berlin or Remote</li>
               <li>&euro;65-85k,0.5-1.50% share options</li>
             </ul>
+            <button>See Details</button>
           </div>
         </div>
       </section>
